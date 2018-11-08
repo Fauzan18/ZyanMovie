@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="#e9e8e8"
-    app:cardCornerRadius="5dp"
-    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/ItemMovieCardColor"
+    app:cardCornerRadius="@dimen/ItemMovieCardCorner"
+    android:layout_margin="@dimen/ItemMovieMarginCardView"
     android:orientation="vertical"
     >
 
@@ -13,12 +13,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/ItemMovieMarginLinear"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/ItemImageWidth"
+            android:layout_height="@dimen/ItemImageHeight"
             android:scaleType="centerCrop"
             android:layout_gravity="center"
             android:src="@mipmap/ic_launcher"
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:id="@+id/tvJudulMovie"
-            android:text="versi"/>
+            android:text="@string/ItemTextTexView"/>
 
 
 

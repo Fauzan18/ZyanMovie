@@ -8,14 +8,14 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:elevation="10dp"
-    android:layout_margin="10dp"
-    app:cardCornerRadius="5dp"
+    android:layout_margin="@dimen/DetailMarginCardView"
+    app:cardCornerRadius="@dimen/DetailCornerCardView"
     tools:context="com.mobile.fauzanibnusarky.zyanmovie.DetailActivity">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/DetailMarginLinearLayout"
         android:orientation="vertical">
 
         <ImageView
@@ -23,14 +23,14 @@
             android:src="@mipmap/ic_launcher"
             android:scaleType="centerCrop"
             android:layout_gravity="center"
-            android:layout_width="100dp"
-            android:layout_height="150dp" />
+            android:layout_width="@dimen/imgDetailWidth"
+            android:layout_height="@dimen/imgDetailHeight" />
         <TextView
             android:gravity="center"
             android:id="@+id/tvJudulMovieDetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Versi" />
+            android:text="@string/versiMovie" />
 
     </LinearLayout>
 

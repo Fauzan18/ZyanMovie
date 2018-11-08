@@ -5,4 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="versiMovie">Versi</string>
+    <string name="TextProgressDataNow">Progress Get Data...</string>
+    <string name="ItemTextTexView">versi</string>
+    <string name="ListTextTextView">Nama Film</string>
+    <string name="ListTextVersion">Versi</string>
 </resources>

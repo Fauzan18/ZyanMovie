@@ -14,20 +14,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/ListMarginLinear"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nama Film"
+            android:text="@string/ListTextTextView"
             android:id="@+id/tvNamaFilm"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Versi"
+            android:text="@string/ListTextVersion"
             android:id="@+id/tvVersiFilm"/>
-
 
     </LinearLayout>
 
